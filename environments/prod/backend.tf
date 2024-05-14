@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "tactical-helix-420623-tfstate"
     prefix = "env/prod"
   }
 }
